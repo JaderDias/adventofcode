@@ -11,7 +11,7 @@ type coords struct {
 }
 
 func readFile() map[int]map[int]int {
-	f, err := os.Open("day03.input")
+	f, err := os.Open("../day03.input")
 	if err != nil {
 		panic(err)
 	}

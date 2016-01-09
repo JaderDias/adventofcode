@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	f, err := os.Open("day03.input")
+	f, err := os.Open("../day03.input")
 	if err != nil {
 		panic(err)
 	}
