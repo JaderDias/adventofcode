@@ -24,9 +24,10 @@ func main() {
 			floor++
 		} else if string(b1) == ")" {
 			floor--
-			if floor == -1 {
-				fmt.Println(position)
-			}
+		}
+
+		if floor == -1 {
+			fmt.Println(position)
 		}
 
 		position++
